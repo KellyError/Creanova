@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+}
+
+.container {
+  max-width: 80%;
+  margin: 50px auto;
+}
+
+.container h2 {
+  font-size: 31px;
+  font-weight: 500;
+  color: #212529;
+}
+
+.row {
+  border-top: 1px solid #212529;
+  padding-top: 20px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1 1 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border: 0.5px solid #212529;
+  border-radius: 6px;
+  /* padding: 16px;  */
+  /* text-align: center;  */
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  padding-bottom: 8px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 8px;
+}
+
+.card-content h3 {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 8px;
+}
+
+.card-content p {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px;
+}
+/* 
+@media (max-width: 995px) {
+  .row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 400px;
+  }
+} */
+
+/* Footer Styles */
+footer {
+  background-color: #f5f2dc; /* Light beige background */
+  padding: 30px 0;
+  font-family: Arial, sans-serif;
+  color: #333; /* Dark text color */
+}
+
+footer h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul li {
+  margin-bottom: 8px;
+}
+
+footer ul li a {
+  color: #d4a52d; /* Yellow color for links */
+  text-decoration: none;
+  font-size: 16px;
+}
+
+footer ul li a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  color: #333;
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Social icons */
+.social-icons {
+  font-size: 20px;
+  color: #333;
+}
+
+.social-icons i {
+  margin-left: 15px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.social-icons i:hover {
+  color: #d4a52d; /* Hover color for social icons */
+}
+
+/* Responsive alignment */
+@media (min-width: 768px) {
+  .text-md-start {
+    text-align: left !important;
+  }
+
+  .text-md-end {
+    text-align: right !important;
+  }
+}
